@@ -2,23 +2,34 @@
 <html lang="en">
     <head>
         <title>Game UI</title>
+        <style>
+            .body {
+                display: flexbox;
+            }
+            .row-one {
+                display: flex;
+                justify-content: space-between;
+            }
+        </style>
     </head>
     <body>
         <div class="Header">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-amd" viewBox="0 0 16 16">
-            <path d="m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0zM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2z"/>
-        </svg>
-        <h1>GameHub</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-amd" viewBox="0 0 16 16">
+                <path d="m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0zM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2z"/>
+            </svg>
+            <h1>GameHub</h1>
         </div>
-        <div class="side-bar">
-            <h1></h1>
-            <div class="row-one">
-                <h3>Home</h3>
-                <h3>Strore</h3>
-                <h3>Library</h3>
-                <h3>Stats</h3>
-                <h3>Settings</h3>
-            </div>
+        <div id="home" class="row-one">
+            <h3>Home</h3>
+        <div>
+            <h5>Gta 5</h5>
+            <h5>Dead Red Redemption</h5>
+        </div>
+        <div>
+            <h3>Strore</h3>
+            <h3>Library</h3>
+            <h3>Stats</h3>
+            <h3>Settings</h3>
         </div>
     </body>
 </html>
