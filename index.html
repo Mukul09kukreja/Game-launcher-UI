@@ -3,40 +3,43 @@
     <head>
         <title>Game UI</title>
         <style>
-            .body {
+            body {
                 display: flexbox;
             }
-            .row-one {
-                display: flex;
-                justify-content: space-between;
+            .title {
+                background-color: yellow;
+                color: black;
+                width: 100px;
+                height: 30px;
+                border: none;
+                margin-right: 20px;
+                border-radius: 40px;
+                font-size: larger;
+                font-weight: bold;
             }
         </style>
     </head>
     <body>
-        <div class="Header">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-amd" viewBox="0 0 16 16">
-                <path d="m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0zM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2z"/>
-            </svg>
-            <h1>GameHub</h1>
-        </div>
-        <div id="home" class="row-one">
-            <h3>Home</h3>
-        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-amd" viewBox="0 0 16 16">
+            <path d="m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0zM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2z"/>
+        </svg>
+        <button class="title">GameHub</button>
+        <div class="Home">
+            <button class="Home_title">Home</button>
             <h4>Gta 5</h4>
             <h4>Dead Red Redemption</h4>
         </div>
+        <div>
+            <button class="Store">Store</button>
         </div>
-        <div id="Strore" class="row-two">
-            <h3>Strore</h3>
+        <div>
+            <button class="Library">Library</button>
         </div>
-        <div id="Library" class="row-three">
-            <h3>Library</h3>
+        <div>
+            <button class="Stats">Stats</button>
         </div>
-        <div id="Stats" class="row-four">
-            <h3>Stats</h3>
-        </div>
-        <div id="Settings" class="row-four">
-            <h3>Settings</h3>
+        <div>
+            <button class="Setting">Setting</button>
         </div>
     </body>
 </html>
