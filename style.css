@@ -1,0 +1,124 @@
+body {
+                display: flexbox;
+            }
+            .title {
+                background-color: yellow;
+                color: black;
+                width: 100px;
+                height: 30px;
+                border: none;
+                margin-right: 20px;
+                border-radius: 40px;
+                font-size: larger;
+                font-weight: bold;
+            }
+            .Home {
+                display: flex;
+                justify-content: space-between;
+            }
+            .Home_title {
+                background-color: rgb(243, 4, 203);
+                color: white;
+                width: 100px;
+                height: 30px;
+                border: none;
+                margin-right: 30px;
+                border-radius: 40px;
+                font-size: medium;
+                font-display: swap;
+                margin-top: 60px;
+                transition: 0.2s;
+            }
+            .Home_title:hover {
+              background-color: pink;
+              color: black;
+              border-color: black;
+            }
+            .Home_title:active {
+              background-color: red;
+              color: white;
+            }
+            .Store {
+                background-color: rgb(243, 4, 203);
+                color: white;
+                width: 100px;
+                height: 30px;
+                border: none;
+                margin-right: 30px;
+                border-radius: 40px;
+                font-size: medium;
+                font-display: swap;
+                margin-top: 10px;
+                transition: 0.2s;
+            }
+            .Store:hover {
+              background-color: pink;
+              color: black;
+            }
+            .Store:active {
+              background-color: red;
+              color: black;
+            }
+            .Library {
+                background-color: rgb(243, 4, 203);
+                color: white;
+                width: 100px;
+                height: 30px;
+                border: none;
+                margin-right: 30px;
+                border-radius: 40px;
+                font-size: medium;
+                font-display: swap;
+                margin-top: 10px;
+                transition: 0.2s;
+            }
+            .Library:hover {
+              background-color: pink;
+              color: black;
+            }
+            .Library:active {
+              background-color: red;
+              color: white;
+            }
+            .Stats {
+                background-color: rgb(243, 4, 203);
+                color: white;
+                width: 100px;
+                height: 30px;
+                border: none;
+                margin-right: 30px;
+                border-radius: 40px;
+                font-size: medium;
+                font-display: swap;
+                margin-top: 10px;
+                transition: 0.2s;
+            }
+            .Stats:hover {
+              background-color: pink;
+              color: black;
+            }
+            .Stats:active {
+              background-color: red;
+              color: white;
+            }
+            .Setting {
+                background-color: rgb(243, 4, 203);
+                color: white;
+                width: 100px;
+                height: 30px;
+                border: none;
+                margin-right: 30px;
+                border-radius: 40px;
+                font-size: medium;
+                font-display: swap;
+                margin-top: 10px;
+                transition: 0.2s;
+            }
+            .Setting:hover {
+              background-color: pink;
+              color: black;
+            }
+            .Setting:active {
+              background-color: red;
+              color: white;
+            }
