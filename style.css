@@ -14,13 +14,13 @@ body {
             }
             .Home {
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
+                font-size: large;
+                font-weight: bold;
             }
             .Home_title {
                 background-color: rgb(243, 4, 203);
                 color: white;
-                width: 100px;
-                height: 30px;
                 border: none;
                 margin-right: 30px;
                 border-radius: 40px;
@@ -28,6 +28,10 @@ body {
                 font-display: swap;
                 margin-top: 60px;
                 transition: 0.2s;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
             }
             .Home_title:hover {
               background-color: pink;
@@ -41,8 +45,6 @@ body {
             .Store {
                 background-color: rgb(243, 4, 203);
                 color: white;
-                width: 100px;
-                height: 30px;
                 border: none;
                 margin-right: 30px;
                 border-radius: 40px;
@@ -50,6 +52,10 @@ body {
                 font-display: swap;
                 margin-top: 10px;
                 transition: 0.2s;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
             .Store:hover {
               background-color: pink;
@@ -62,8 +68,6 @@ body {
             .Library {
                 background-color: rgb(243, 4, 203);
                 color: white;
-                width: 100px;
-                height: 30px;
                 border: none;
                 margin-right: 30px;
                 border-radius: 40px;
@@ -71,6 +75,10 @@ body {
                 font-display: swap;
                 margin-top: 10px;
                 transition: 0.2s;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-top: 10px;
             }
             .Library:hover {
               background-color: pink;
@@ -83,8 +91,6 @@ body {
             .Stats {
                 background-color: rgb(243, 4, 203);
                 color: white;
-                width: 100px;
-                height: 30px;
                 border: none;
                 margin-right: 30px;
                 border-radius: 40px;
@@ -92,6 +98,10 @@ body {
                 font-display: swap;
                 margin-top: 10px;
                 transition: 0.2s;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
             .Stats:hover {
               background-color: pink;
@@ -104,8 +114,6 @@ body {
             .Setting {
                 background-color: rgb(243, 4, 203);
                 color: white;
-                width: 100px;
-                height: 30px;
                 border: none;
                 margin-right: 30px;
                 border-radius: 40px;
@@ -113,6 +121,10 @@ body {
                 font-display: swap;
                 margin-top: 10px;
                 transition: 0.2s;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
             .Setting:hover {
               background-color: pink;
