@@ -145,8 +145,24 @@ body {
               padding-top: 10px;
               border-radius: 20px;
               box-shadow: 3px 3px 10px black;
+              margin-right: 10px;
             }
             .Gta5:hover {
+              background-color: orange;
+              padding-right: 40px;
+              padding-bottom: 20px;
+            }
+            .valorant {
+              background-color: blueviolet;
+              color: white;
+              padding-left: 20px;
+              padding-right: 20px;
+              padding-bottom: 10px;
+              padding-top: 10px;
+              border-radius: 20px;
+              box-shadow: 3px 3px 10px black;
+            }
+            .valorant:hover {
               background-color: orange;
               padding-right: 40px;
               padding-bottom: 20px;
