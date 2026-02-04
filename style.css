@@ -1,5 +1,6 @@
 body {
                 display: flexbox;
+                background-color: lightgreen;
             }
             .title {
                 background-color: yellow;
@@ -13,6 +14,7 @@ body {
                 padding-right: 20px;
                 padding-bottom: 10px;
                 padding-top: 10px;
+                margin-left: 30px;
             }
             .Home {
                 display: flex;
@@ -146,11 +148,18 @@ body {
               border-radius: 20px;
               box-shadow: 3px 3px 10px black;
               margin-right: 10px;
+              margin-left: 900px;
+              text-align: center;
+              font-family: 'Inter', sans-serif;
+              font-size: medium;
             }
             .Gta5:hover {
               background-color: orange;
               padding-right: 40px;
               padding-bottom: 20px;
+              font-family: 'Inter', sans-serif;
+              font-size: larger;
+              text-align: center;
             }
             .valorant {
               background-color: blueviolet;
@@ -161,9 +170,16 @@ body {
               padding-top: 10px;
               border-radius: 20px;
               box-shadow: 3px 3px 10px black;
+              margin-left: 100px;
+              font-family: 'Inter', sans-serif;
+              text-decoration: underline;
+              text-align: center;
+              font-size: medium;
             }
             .valorant:hover {
               background-color: orange;
               padding-right: 40px;
               padding-bottom: 20px;
+              font-size: larger;
+              font-family: 'Inter', sans-serif;
             }
