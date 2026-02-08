@@ -1,185 +1,114 @@
+:root {
+  --primary-color: rgb(243, 4, 203);
+  --primary-hover: pink;
+  --primary-active: red;
+  --bg-light: lightgreen;
+  --bg-dark: blueviolet;
+  --accent-orange: orange;
+  --text-white: white;
+  --text-black: black;
+  --border-radius: 40px;
+  --transition: 0.2s;
+  --shadow: 3px 3px 10px black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-                display: flexbox;
-                background-color: lightgreen;
-            }
-            .title {
-                background-color: yellow;
-                color: black;
-                border: none;
-                margin-right: 20px;
-                border-radius: 40px;
-                font-size: larger;
-                font-weight: bold;
-                padding-left: 20px;
-                padding-right: 20px;
-                padding-bottom: 10px;
-                padding-top: 10px;
-                margin-left: 30px;
-            }
-            .Home {
-                display: flex;
-                justify-content: center;
-                font-size: large;
-                font-weight: bold;
-            }
-            .Home_title {
-                background-color: rgb(243, 4, 203);
-                color: white;
-                border: none;
-                margin-right: 30px;
-                border-radius: 40px;
-                font-size: medium;
-                font-display: swap;
-                margin-top: 60px;
-                transition: 0.2s;
-                padding-top: 10px;
-                padding-left: 10px;
-                padding-bottom: 10px;
-                padding-right: 10px;
-            }
-            .Home_title:hover {
-              background-color: pink;
-              color: black;
-              border-color: black;
-            }
-            .Home_title:active {
-              background-color: red;
-              color: white;
-            }
-            .Store {
-                background-color: rgb(243, 4, 203);
-                color: white;
-                border: none;
-                margin-right: 30px;
-                border-radius: 40px;
-                font-size: medium;
-                font-display: swap;
-                margin-top: 10px;
-                transition: 0.2s;
-                padding-left: 10px;
-                padding-right: 10px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-            }
-            .Store:hover {
-              background-color: pink;
-              color: black;
-            }
-            .Store:active {
-              background-color: red;
-              color: black;
-            }
-            .Library {
-                background-color: rgb(243, 4, 203);
-                color: white;
-                border: none;
-                margin-right: 30px;
-                border-radius: 40px;
-                font-size: medium;
-                font-display: swap;
-                margin-top: 10px;
-                transition: 0.2s;
-                padding-left: 10px;
-                padding-right: 10px;
-                padding-bottom: 10px;
-                padding-top: 10px;
-            }
-            .Library:hover {
-              background-color: pink;
-              color: black;
-            }
-            .Library:active {
-              background-color: red;
-              color: white;
-            }
-            .Stats {
-                background-color: rgb(243, 4, 203);
-                color: white;
-                border: none;
-                margin-right: 30px;
-                border-radius: 40px;
-                font-size: medium;
-                font-display: swap;
-                margin-top: 10px;
-                transition: 0.2s;
-                padding-left: 10px;
-                padding-right: 10px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-            }
-            .Stats:hover {
-              background-color: pink;
-              color: black;
-            }
-            .Stats:active {
-              background-color: red;
-              color: white;
-            }
-            .Setting {
-                background-color: rgb(243, 4, 203);
-                color: white;
-                border: none;
-                margin-right: 30px;
-                border-radius: 40px;
-                font-size: medium;
-                font-display: swap;
-                margin-top: 10px;
-                transition: 0.2s;
-                padding-left: 10px;
-                padding-right: 10px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-            }
-            .Setting:hover {
-              background-color: pink;
-              color: black;
-            }
-            .Setting:active {
-              background-color: red;
-              color: white;
-            }
-            .Gta5 {
-              background-color: blueviolet;
-              color: white;
-              padding-left: 20px;
-              padding-right: 20px;
-              padding-bottom: 10px;
-              padding-top: 10px;
-              border-radius: 20px;
-              box-shadow: 3px 3px 10px black;
-              margin-right: 10px;
-              margin-left: 900px;
-              text-align: center;
-              font-family: 'Inter', sans-serif;
-              font-size: medium;
-            }
-            .Gta5:hover {
-              background-color: orange;
-              padding-right: 40px;
-              padding-bottom: 20px;
-              font-family: 'Inter', sans-serif;
-              font-size: larger;
-              text-align: center;
-            }
-            .valorant {
-              background-color: blueviolet;
-              color: white;
-              padding-left: 20px;
-              padding-right: 20px;
-              padding-bottom: 10px;
-              padding-top: 10px;
-              border-radius: 20px;
-              box-shadow: 3px 3px 10px black;
-              margin-left: 100px;
-              font-family: 'Inter', sans-serif;
-              text-decoration: underline;
-              text-align: center;
-              font-size: medium;
-            }
-            .valorant:hover {
-              background-color: orange;
-              padding-right: 40px;
-              padding-bottom: 20px;
-              font-size: larger;
-              font-family: 'Inter', sans-serif;
-            }
+  display: flex;
+  background-color: var(--bg-light);
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background-color: yellow;
+  color: var(--text-black);
+  border: none;
+  margin: 0 20px 0 30px;
+  border-radius: var(--border-radius);
+  font-size: larger;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* Button Mixin Pattern */
+.Home_title,
+.Store,
+.Library,
+.Stats,
+.Setting {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  border: none;
+  margin: 10px 30px 0 0;
+  border-radius: var(--border-radius);
+  font-size: medium;
+  transition: background-color var(--transition), color var(--transition);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Home_title {
+  margin-top: 60px;
+}
+
+.Home_title:hover,
+.Store:hover,
+.Library:hover,
+.Stats:hover,
+.Setting:hover {
+  background-color: var(--primary-hover);
+  color: var(--text-black);
+}
+
+.Home_title:active,
+.Store:active,
+.Library:active,
+.Stats:active,
+.Setting:active {
+  background-color: var(--primary-active);
+  color: var(--text-white);
+}
+
+/* Game Cards */
+.Gta5,
+.valorant {
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  font-family: 'Inter', sans-serif;
+  font-size: medium;
+  text-align: center;
+  transition: all var(--transition);
+  cursor: pointer;
+}
+
+.Gta5 {
+  margin: 0 10px 0 900px;
+}
+
+.valorant {
+  margin-left: 100px;
+  text-decoration: underline;
+}
+
+.Gta5:hover,
+.valorant:hover {
+  background-color: var(--accent-orange);
+  padding-right: 40px;
+  padding-bottom: 20px;
+  font-size: larger;
+}
