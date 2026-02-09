@@ -15,14 +15,19 @@ body {
                 padding-bottom: 10px;
                 padding-top: 10px;
                 margin-left: 30px;
-                margin-bottom: 20px;
+                margin-bottom: 0;
                 margin-top: 0;
+                justify-content: center;
+                position: relative;
+                top: 0px;
+                right: 10px;
             }
             .Home {
                 display: flex;
-                justify-content: center;
+                margin-top: 20px;
                 font-size: large;
                 font-weight: bold;
+                justify-content: center;
             }
             .Home_title {
                 background-color: rgb(243, 4, 203);
@@ -38,7 +43,8 @@ body {
                 padding-left: 10px;
                 padding-bottom: 10px;
                 padding-right: 10px;
-                
+                position: relative;
+                left: 800px;
             }
             .Home_title:hover {
               background-color: pink;
@@ -63,6 +69,8 @@ body {
                 padding-right: 10px;
                 padding-top: 10px;
                 padding-bottom: 10px;
+                position: relative;
+                left: 800px;
             }
             .Store:hover {
               background-color: pink;
@@ -86,6 +94,8 @@ body {
                 padding-right: 10px;
                 padding-bottom: 10px;
                 padding-top: 10px;
+                position: relative;
+                left: 800px;
             }
             .Library:hover {
               background-color: pink;
@@ -109,6 +119,8 @@ body {
                 padding-right: 10px;
                 padding-top: 10px;
                 padding-bottom: 10px;
+                position: relative;
+                left: 800px;
             }
             .Stats:hover {
               background-color: pink;
@@ -132,6 +144,8 @@ body {
                 padding-right: 10px;
                 padding-top: 10px;
                 padding-bottom: 10px;
+                position: relative;
+                left: 800px;
             }
             .Setting:hover {
               background-color: pink;
