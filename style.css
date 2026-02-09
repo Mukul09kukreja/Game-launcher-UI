@@ -1,6 +1,21 @@
 body {
                 display: flexbox;
                 background-color: lightgreen;
+                background-image: url(ANIME.jpg);
+                
+            }
+            .body::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-image: url('your-image.jpg');
+              background-size: cover;
+              background-position: center;
+              filter: blur(8px);
+              z-index: -1; /* Behind content */
             }
             .title {
                 background-color: yellow;
@@ -28,6 +43,7 @@ body {
                 font-size: large;
                 font-weight: bold;
                 justify-content: center;
+                color: white;
             }
             .Home_title {
                 background-color: rgb(243, 4, 203);
@@ -207,7 +223,15 @@ body {
               width: 170px;
               height: 240px;
             }
+            .gta:hover {
+              position: relative;
+              bottom: 10px;
+            }
             .val {
               width: 170px;
               height: 240px;
+            }
+            .val:hover {
+              position: relative;
+              bottom: 10px;
             }
