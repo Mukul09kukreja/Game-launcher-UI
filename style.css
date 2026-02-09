@@ -164,10 +164,13 @@ body {
               padding-top: 10px;
               border-radius: 20px;
               box-shadow: 3px 3px 10px black;
-              
+              margin-top: 20px;
               text-align: center;
               font-family: 'Inter', sans-serif;
               font-size: medium;
+              position: relative;
+              top: 30px;
+              left: 10px;
             }
             .Gta5:hover {
               background-color: orange;
@@ -186,11 +189,13 @@ body {
               padding-top: 10px;
               border-radius: 20px;
               box-shadow: 3px 3px 10px black;
-              
               font-family: 'Inter', sans-serif;
               text-decoration: underline;
               text-align: center;
               font-size: medium;
+              position: relative;
+              right: 140px;
+              top: 30px;
             }
             .valorant:hover {
               background-color: orange;
@@ -200,5 +205,9 @@ body {
               font-family: 'Inter', sans-serif;
             }
             .gta {
-              width: 200px;
+              width: 170px;
+              height: 240px;
+            }
+            .val {
+              width: 170px;
             }
