@@ -288,6 +288,10 @@ body::before {
     display: inline-block;
     height: 240px;
 }
+.lol:hover {
+    position: relative;
+    bottom: 10px;
+}
 .league {
     color: white;
     background-color: blueviolet;
